@@ -1,0 +1,51 @@
+body {
+  background-color: burlywood;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+
+body a {
+  color: white;
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h3 {
+  color: red;
+}
+
+#header-img {
+  width: 400px;
+}
+
+#header-words {
+  line-height: 10px;
+  font-size: 50px;
+  font-family: 'Exo', sans-serif;
+  margin-bottom: 75px;
+}
+
+section {
+  padding: 0 50px 0px 50px;
+  text-align: center;
+}
+
+div.accordion {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+div.accordion.active,
+div.accordion:hover {
+  background-color: white;
+  color: #1d2031;
+}
+
+div.panel {
+  padding: 0 18px 0 0;
+  display: none;
+}
